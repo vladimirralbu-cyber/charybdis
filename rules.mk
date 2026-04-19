@@ -11,10 +11,10 @@ UNICODE_ENABLE     = yes
 
 # Build Options
 BOOTMAGIC_ENABLE   = no    # Bootmagic Lite
-EXTRAKEY_ENABLE    = no    # Audio control and System control
+EXTRAKEY_ENABLE    = yes    # Audio control and System control
 CONSOLE_ENABLE     = no    # Console for debug
 COMMAND_ENABLE     = no    # Commands for debug and configuration
-NKRO_ENABLE        = no    # USB Nkey Rollover
+NKRO_ENABLE        = yes    # USB Nkey Rollover
 
 # trackball & mousekeys
 MOUSEKEY_ENABLE        = yes   # Mouse keys
@@ -22,7 +22,7 @@ POINTING_DEVICE_ENABLE = yes
 MOUSE_SHARED_EP        = no
 
 #  enable configuraiton with VIA
-VIA_ENABLE             = no
+VIA_ENABLE             = yes
 
 # No lighting or audio
 SLEEP_LED_ENABLE  = no    # Breathing sleep LED during USB suspend
